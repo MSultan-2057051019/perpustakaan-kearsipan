@@ -37,6 +37,7 @@
                 <a class="nav-item nav-link active" href="#">Perpustakaan</a>
                 <a class="nav-item nav-link active" href="#">Berita</a>
                 <a class="nav-item nav-link active" href="#">Galeri</a>
+                <a class="nav-item nav-link active" href="#">Dokumen</a>
                 </div>
             </div>
       </div>
