@@ -1,0 +1,250 @@
+/* Navbar */
+
+.nav-link{
+    color: black;
+}
+
+/* Jumbtron */
+
+.jumbotron {
+    background-image: url(assets/bg.jpg);
+    background-size:cover;
+    background-color: grey;
+    height: 510px;
+    text-align: center;
+}
+
+.jumbotron .logo {
+    margin-top: 60px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+
+.caption {
+    color: rgb(242, 242, 242);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+/* Panel */
+
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin-top: -120px;
+  background-color: #fff;
+  padding: 12px;
+}
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.panel-text {
+  margin-top: 10px;
+}
+.info-panel h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.info-panel p {
+  font-weight: 200;
+}
+
+/* Cards */
+
+.card-display {
+  color: rgb(0, 0, 0);
+  margin-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  text-align: center; /* Mengatur teks ke tengah */
+}
+
+.card-display::after {
+  content: "";
+  display: block;
+  width: 15%; /* Panjang garis bawah disesuaikan dengan teks */
+  margin: 0 auto; /* Membuat garis bawah berada di tengah */
+  border-bottom: 2px solid orange;
+  padding-bottom: 4px;
+}
+
+.cards {
+  margin-top: 40px;
+}
+
+.card-img-top {
+  border-radius: 4px; /* Ganti dengan radius yang Anda inginkan */
+}
+
+.custom-card {
+  width: 100px; /* Sesuaikan dengan lebar yang Anda inginkan */
+}
+
+.custom-card .card-text,.card-title{
+  text-decoration: none;
+  color: black;
+}
+
+/* Carousel */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+/* Profile */
+
+.rounded-pill {
+	color: #fff;
+}
+.rounded-pill:hover {
+	color: #ddd;
+}
+
+.workingspace {
+	margin-top: 120px;
+    margin-bottom: 120px;
+	text-align: center;
+}
+.workingspace h3 {
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.workingspace h3 span {
+	font-weight: 500;
+}
+.workingspace p {
+	font-size: 18px;
+	color: #acacac;
+	font-weight: 200;
+	margin: 25px 0;
+}
+.workingspace a {
+	text-transform: uppercase;
+}
+
+.img-fluid {
+    width: 60%;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.text-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid orange;
+  padding-bottom: 4px;
+  width: 60%;
+}
+
+.text-logo{
+  color: rgb(211, 21, 21);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-shadow: 2px 1px 3px rgba(255, 255, 255, 0.72);
+}
+
+.stripe-3 {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(183, 183, 183, 0.2),
+    rgba(178, 177, 177, 0.2) 3px,
+    rgba(223, 223, 223, 0.3) 3px,
+    rgba(82, 82, 82, 0.3) 6px
+  )
+}
+
+/* Button */
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 15px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: #36395A;
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+/* Desktop */
+@media (min-width: 992px) { 
+    .nav-link {
+        color: white !important;
+        margin-right:15px;
+        /* text-shadow: 1px 1px 1px rgba(0,0,0,0.7); */
+    }
+
+    .nav-link:hover::after {
+        content:'';
+        display: block;
+        border-bottom: 3px solid #ffffff;
+        margin: auto;
+        padding-bottom: 10px;
+        margin-bottom: -13px;
+        
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+    }
+}
