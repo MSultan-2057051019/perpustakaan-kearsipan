@@ -4,6 +4,26 @@
     color: black;
 }
 
+/* Breadcrumb */
+
+.navigation{
+    margin-top: -32px;
+
+}
+
+.navigation nav{
+    display: block;
+}
+
+.breadcrumb-first{
+  margin-left: 50px;
+}
+
+.breadcrumb{
+    background-color: #333;
+    border-radius: 0px;
+}
+   
 /* Jumbtron */
 
 .jumbotron {
@@ -37,7 +57,7 @@
 .info-panel {
   box-shadow: 0 3px 20px rgba(0,0,0,0.5);
   border-radius: 10px;
-  margin-top: -120px;
+  margin-top: -60px;
   background-color: #fff;
   padding: 12px;
 }
@@ -123,6 +143,7 @@
 	margin-top: 120px;
     margin-bottom: 120px;
 	text-align: center;
+    height: 360px;
 }
 .workingspace h3 {
 	font-size: 52px;
@@ -144,8 +165,9 @@
 }
 
 .img-fluid {
-    width: 60%;
+    width: 40%;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 /* Footer */
@@ -175,7 +197,50 @@
   )
 }
 
-/* Button */
+/* Structure */
+
+.structure{
+  margin-bottom: 50px;
+}
+
+.img-structure {
+    width: 80%;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.structure-text{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+/* Document */
+
+.img-document{
+  margin-right: 10px;
+}
+
+.document-title {
+  font-size: 18px;
+}
+
+.document-content{
+  margin-left: 10px;
+}
+
+.search-bar{
+    margin-bottom: 35px;
+}
+
+/* Utility */
+
+.text-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
 
 .button-30 {
   align-items: center;
@@ -224,7 +289,11 @@
   transform: translateY(2px);
 }
 
-
+.orange-line {
+    border-bottom: 2px solid orange; /* Mengatur warna dan ketebalan garis oranye */
+    width: 100%; /* Lebar garis bawah mencakup lebar penuh elemen */
+    display: block; /* Membuat garis bawah menjadi elemen blok */
+}
 
 /* Desktop */
 @media (min-width: 992px) { 
